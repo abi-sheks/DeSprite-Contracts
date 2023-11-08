@@ -12,10 +12,10 @@ contract NFTFactory is ERC721URIStorage {
     }
 
     function mintNFT(string memory _tokenURI) public {
+        s_tokenId += 1;
         _safeMint(msg.sender, s_tokenId);
         _setTokenURI(s_tokenId, _tokenURI);
         emit AssetMinted(s_tokenId);
-        s_tokenId += 1;
     }
 
     //not implementing custom getTokenUri method.
