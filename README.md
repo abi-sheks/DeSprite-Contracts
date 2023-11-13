@@ -1,20 +1,14 @@
-## Foundry
+# DeSprite
+These are the smart contracts behind the [DeSprite NFT marketplace](https://github.com/berserkenthusiastabishek/DeSprite-Frontend) app, a proof of concept game assets marketplace app.  
+The contracts are deployed on Sepolia Testnet, the addresses are :
 
-**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
+NFT Factory contract : 0x3a0576034F8E6D5c38FeD2Ce7Dd80cB9A604043E  
 
-Foundry consists of:
-
--   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
--   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
--   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
--   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
-
-## Documentation
-
-https://book.getfoundry.sh/
+Marketplace contract : 0xB25A993e2Ff155d770e2609B1Da1aA38c6E1c60F
 
 ## Usage
-
+The contracts were developed and deployed using the Foundry framework.
+- Simply clone the repo and ```cd``` into it, and use the following standard foundry commands to play with the contracts.
 ### Build
 
 ```shell
